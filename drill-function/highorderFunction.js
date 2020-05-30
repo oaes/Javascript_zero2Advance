@@ -7,12 +7,12 @@ console.log(add(8,8));
 
 //we can pass function as an arguments
 function alter(a,b,func) {
-    var c = a-b
+    var c = a * b
     var d = c + a
 
     return function(){
         var e = func(a,b);
-        return c*d*e
+        return c+d+e
     }
 }
 
