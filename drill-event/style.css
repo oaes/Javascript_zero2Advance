@@ -1,0 +1,10 @@
+body{
+    background: #f1f1f1;
+    margin: 0;
+    text-align: center;
+}
+
+.heading{
+    color: tomato;
+    font-size: 1rem;
+}
